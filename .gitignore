@@ -5,6 +5,9 @@ node_modules/
 frontend/Build
 backend/Build
 
+# Dummy Data
+frontend/src/dummyData
+
 # Logs
 logs/
 *.log
