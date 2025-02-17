@@ -1,0 +1,121 @@
+.topBarContainer{
+    display: flex;
+    background-color: #5890FF;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    height: 50px;
+    cursor: pointer;
+}
+.topbarImg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.topBarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.topBarCenter{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.topBarLeft{
+    flex: 3;
+    display: flex;
+    /* border: 2px solid black; */
+    padding-left: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.topRightFirst{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-right: 10px; */
+    /* border: 2px solid black; */
+}
+.topRightSecond{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+}
+.searchArea{
+    width: 100%;
+    padding-left: 30px;
+    height: 100%;   
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+
+}
+/* .searchArea:focus{
+
+    outline: none;    
+} */
+.topRightFirst span{
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+
+.badgeItem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.badgeCount{
+    position: absolute;
+    /* border: 2px solid black; */
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    top: -12px;
+    left: 7px;
+
+}
+.searchIcon{
+   position: absolute;
+   top: 20%;
+   color: grey;
+   /* left:2%;  */
+}
+.searchBar{
+    width: 100%;
+    height: 40px;
+    
+    position: relative;
+}
+.results-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+  }
+

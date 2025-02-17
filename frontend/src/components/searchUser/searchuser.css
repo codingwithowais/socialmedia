@@ -1,0 +1,20 @@
+ li {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+   li:hover {
+    background: #f0f0f0;
+  }
+  .profile-pic {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  li>span{
+    color: black;
+  }
+  
